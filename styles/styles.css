@@ -1,0 +1,101 @@
+html, 
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: var(--darkGray) !important;
+}
+
+:root {
+    --darkGray: #222831;
+    --lightGray: #393E46;
+    --darkBeige: #948979;
+    --lightBeige: #DFD0B8;
+}
+
+*, **::before, **::after {
+    box-sizing: inherit;
+}
+
+#main-container {
+    margin-top: 5rem;
+}
+
+.title-section {
+    color: var(--lightBeige);
+    background-color: var(--lightGray);
+    padding: 2em;
+    border-radius: 5px;
+}
+
+#main-container {
+    padding: 3em;
+}
+
+#about-section{
+    display: flex;
+    margin-top: 1rem;
+}
+
+.history-title {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5rem;
+}
+
+#history-section {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 1rem;   
+}
+
+.description-container {
+    color: var(--darkBeige);
+    padding: 2em;
+}
+
+div a {
+    color: var(--lightBeige) !important;
+}
+
+.classification-ls {
+    display: flex;
+    justify-content: space-between;
+}
+
+ol li::marker {
+    font-size: 20px;
+}
+
+@keyframes slide-in {
+    from {
+        translate: 100vw 0;
+        scale: 200% 1;
+    }
+    to {
+        translate: 0 0;
+        scale: 100% 1;
+    }
+}
+
+.about-title {
+    animation-duration: 3s;
+    animation-name: slide-in;
+}
+
+@keyframes slide-in-two {
+    from {
+        translate: -100vw 0;
+        scale: 200% 1;
+    }
+    to {
+        translate: 0 0;
+        scale: 100% 1;
+    }
+}
+
+.history-title {
+    animation-duration: 3s;
+    animation-name: slide-in-two;
+}

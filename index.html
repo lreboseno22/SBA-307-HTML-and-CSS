@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Playfair Display', serif !important;
+        }
+
+        p {
+            font-size: larger;
+        }
+    </style>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <title>Home</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color:#393E46 !important;"
+        data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">All About Crystals</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    <a class="nav-link" href="./pages/info.html">Learn Crystals</a>
+                    <a class="nav-link" href="./pages/login.html">Login</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div id="main-container">
+        <div class="title-section about-title">
+            <h1>What are Crystals?</h1>
+        </div>
+        <div id="about-section">
+            <div class="img-container">
+                <img src="./images/crystal-cave.jpg" alt="crystal" id="about-section-img">
+            </div>
+            <div class="description-container">
+                <p>A crystal is a solid material whose atoms are arranged in a highly ordered, repeating pattern
+                    extending in all three spatial dimensions. This orderly arrangement gives crystals their
+                    characteristic shapes, flat surfaces, and sharp edges. Crystals can form from various processes,
+                    including:</p>
+                <ol>
+                    <li><b>Cooling of molten materials:</b> As magma or lava cools, minerals can crystallize.</li>
+                    <li><b>Evaporation:</b> When a solution becomes saturated and evaporates, crystals can form from the
+                        remaining solute.</li>
+                    <li><b>Sublimation:</b> Some substances can transition directly from a gas to a solid, forming
+                        crystals.</li>
+                </ol>
+                <hr>
+                <p>Crystals are classified into different systems based on their symmetry and the arrangement of their
+                    unit cells, including:</p>
+                <ul class="classification-ls">
+                    <li>Cubic</li>
+                    <li>Tetragonal</li>
+                    <li>Orthorhombic</li>
+                    <li>Hexagonal</li>
+                    <li>Rhombohedral</li>
+                    <li>Monoclinic</li>
+                    <li>Triclinic</li>
+                </ul>
+            </div>
+        </div>
+        <div class="title-section history-title">
+            <h1>The Origin of Crystals</h1>
+        </div>
+        <div id="history-section">
+            <div class="img-container">
+                <img
+                    src="https://www.americangeosciences.org/static/earth/danger-and-wonder-nat-geos-giant-crystal-cave/i-a6-7d8-a-a.jpg">
+            </div>
+            <div class="description-container">
+                <p>Most crystals have natural origins. They can form through inorganic means, such as geological
+                    processes within the earth. Others form through organic processes within living creatures. For
+                    example, some human kidney stones consist in part of weddellite crystals.</p>
+                <hr>
+                <p>Laboratories can also create crystals artificially. For example, cubic zirconia, a synthetic gem
+                    material, forms with a cubic crystal structure when zirconium and zirconium dioxide are superheated.
+                    The resulting material commonly finds use as a diamond imitation or simulant.</p>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
