@@ -99,3 +99,8 @@ ol li::marker {
     animation-duration: 3s;
     animation-name: slide-in-two;
 }
+
+.info-table td {
+    padding: 1rem;
+    color: #DFD0B8 !important;
+}
